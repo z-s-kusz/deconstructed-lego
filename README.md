@@ -35,11 +35,14 @@ npm run preview
 
 ## Netlify Setup
 Netlify Build and Deploy Settings I used for this:
+
 Base Directory: -left blank-
+
 Build Command: npx nuxi generate
+
 Publish Directory: dist
 
-I also added a netlify.toml file with an empty "\[\[redirects\]\]" section but I don't think tat did anything.
+I also added a netlify.toml file with an empty "\[\[redirects\]\]" section but I don't think that did anything.
 
 # Nuxt 3 for a first time user (as of April 2023)
 My experience was rough.
@@ -50,7 +53,8 @@ Even this .md file had a dead link in it when it was initially auto generated.
 
 ‘Nuxt Content’ had an open bug where the npm install command would fail so I worked around it by using yarn.
 
-The directory structure generated with a new ‘Nuxt Content’ project was incomplete and it took me an embarrassingly long time to figure out if I wanted to add things like stand alone components I had to have them in the specific directory structure that Nuxt wanted.
+The directory structure generated with a new ‘Nuxt Content’ project was incomplete and it took me an embarrassingly long time to figure out if I wanted to add things like stand alone components,
+I had to have them in the specific directory structure that Nuxt wanted.
 I admit this one's on me and I may have had a better time learning Nuxt alone before venturing into Content.
 
 Docs on SSG and deploying are terrible (mostly on the Netlify side to be fair). Looking up anything about deploying returns SSR guides or Nuxt v2 guides.
