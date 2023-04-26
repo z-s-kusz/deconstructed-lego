@@ -2,14 +2,12 @@
 import Dates from '~/components/content/dates.vue';
 
 const { path } = useRoute();
-const { data: setData } = await useAsyncData('set', () => {
-  return queryContent().where({ _path: path }).findOne();
-});
 
-const themeDisplay = setData.value.legoSubtheme ?
-  `Themes: ${setData.value.legoTheme}, ${setData.value.legoSubtheme}` :
-  `Theme: ${setData.value.legoTheme}`;
-const releaseDate = new Date(setData.value.dateReleased).toDateString();
+const setData = await queryContent().where({ _path: path }).findOne();
+const themeDisplay = setData.legoSubtheme ?
+  `Themes: ${setData.legoTheme}, ${setData.legoSubtheme}` :
+  `Theme: ${setData.legoTheme}`;
+const releaseDate = new Date(setData.dateReleased).toDateString();
 </script>
 
 <template>

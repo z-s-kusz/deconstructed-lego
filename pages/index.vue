@@ -1,10 +1,8 @@
 <script setup lang="ts">
-const { data: setsListData } = await useAsyncData('setsList', () => {
-  return queryContent('/set').find();
-});
+const setsListData = await queryContent('/set').find();
 
 // not assigned becuase sort mutates the origional data
-setsListData.value?.sort((a, b) => {
+setsListData.sort((a, b) => {
   const publishedDateA = a.dates[0];
   const publishedDateB = b.dates[0];
   return new Date(publishedDateA) - new Date(publishedDateB);
