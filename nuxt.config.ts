@@ -17,4 +17,7 @@ export default defineNuxtConfig({
       anchorLinks: false,
     },
   },
+  css: [
+    '@/assets/global.css'
+  ],
 })

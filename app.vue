@@ -37,19 +37,4 @@ const heroSet = setsListData.value.find((set) => {
   color: white;
 }
 
-.photo-label {
-  text-shadow: 0px 0px 10px #000000, 0px 0px 10px #000000;
-  text-decoration-color: white;
-  color: white;
-}
-
-a {
-  text-decoration-color: white;
-}
-
-/* this is gross, no idea why parsed .md doesn't generate with classes so I can style it easier */
-[data-content-id="content:about.md"] p {
-  margin-bottom: 2rem;
-}
-
 </style>
