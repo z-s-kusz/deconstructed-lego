@@ -54,6 +54,18 @@ header {
 .image-container {
   margin-top: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    margin-bottom: 0.5rem;
+  }
+  .stats {
+    padding: 0;
+  }
+  .image-container {
+    margin-top: 0.5rem;
+  }
+}
 .photo-label {
   white-space: normal;
 }

@@ -35,10 +35,19 @@ setsListData.sort((a, b) => {
 .container {
   padding: 0.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(408px, 1fr));
   grid-gap: 0.5rem;
 }
 
+@media screen and (max-width: 408px) {
+  .lego-photo {
+    height: 360px;
+    width: 360px;
+  }
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+}
 .grid-item {
   display: flex;
   align-items: center;
