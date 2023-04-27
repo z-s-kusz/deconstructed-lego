@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useHead({
+  title: 'Deconstructed Lego',
+});
+
 const setsListData = await queryContent('/set').find();
 
 // not assigned becuase sort mutates the origional data
