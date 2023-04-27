@@ -4,7 +4,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "ssg-preview": "npx nuxi generate && nuxt preview"
   },
   "devDependencies": {
     "@invictus.codes/nuxt-vuetify": "^0.2.18",
