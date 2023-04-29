@@ -1,12 +1,13 @@
 ---
 name: Inquisitor Transport Scythe
+subtitle:
 legoId: 75336-1
 legoTheme: Star Wars
 legoSubtheme: Obi-Wan Kenobe
 dateReleased: '2020-08-01'
 pieces: 924
 bricksetLink: https://brickset.com/sets/75336-1/Inquisitor-Transport-Scythe
-brickSetImage: https://images.brickset.com/sets/images/75336-1.jpg?202201040356
+builtImage: https://images.brickset.com/sets/images/75336-1.jpg?202201040356
 theme1: blue-grey-darken-1
 heroPhotoIndex: 0
 photos:

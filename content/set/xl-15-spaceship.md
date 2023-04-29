@@ -1,12 +1,13 @@
 ---
 name: XL-15 Spaceship
+subtitle:
 legoId: 76832-1
 legoTheme: Disney
 legoSubtheme: Lightyear
 dateReleased: '2022-04-24'
 pieces: 497
 bricksetLink: https://brickset.com/sets/76832-1/XL-15-Spaceship
-brickSetImage: https://images.brickset.com/sets/images/76832-1.jpg?202110150702
+builtImage: https://images.brickset.com/sets/images/76832-1.jpg?202110150702
 theme1: light-blue-darken-1
 heroPhotoIndex: 1
 photos:

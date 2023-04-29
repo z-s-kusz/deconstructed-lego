@@ -7,7 +7,7 @@ legoSubtheme: Episode VI
 dateReleased: '2023-01-01'
 pieces: 87
 bricksetLink: https://brickset.com/sets/30654-1/X-wing-Starfighter
-brickSetImage: https://live.staticflickr.com/65535/52856289144_cab51c0825_k.jpg
+builtImage: https://live.staticflickr.com/65535/52856289144_cab51c0825_k.jpg
 theme1: blue-grey-darken-1
 heroPhotoIndex: 0
 photos:

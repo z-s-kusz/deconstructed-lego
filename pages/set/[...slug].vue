@@ -22,7 +22,7 @@ const releaseDate = new Date(setData.dateReleased).toDateString();
         <p>Release Date: {{ releaseDate }}</p>
       </header>
       <v-img
-          :src="setData.brickSetImage"
+          :src="setData.builtImage"
           :alt="`${setData.name} Brickset DB Image`"
           class="lego-image"          
       />

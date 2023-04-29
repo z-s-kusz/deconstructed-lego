@@ -1,12 +1,13 @@
 ---
 name: Easter Chicks
+subtitle:
 legoId: 40527-1
 legoTheme: Seasonal
 legoSubtheme: Easter
 dateReleased: '2022-03-25'
 pieces: 318
 bricksetLink: https://brickset.com/sets/40527-1/Easter-Chicks
-brickSetImage: https://images.brickset.com/sets/images/40527-1.jpg?202201290924
+builtImage: https://images.brickset.com/sets/images/40527-1.jpg?202201290924
 theme1: blue-darken-1
 heroPhotoIndex: 0
 photos:

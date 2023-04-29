@@ -1,12 +1,13 @@
 ---
 name: BD-1
+subtitle:
 legoId: 75335-1
 legoTheme: Star Wars
 legoSubtheme: "Jedi: Fallen Order"
 dateReleased: '2022-08-01'
 pieces: 1062
 bricksetLink: https://brickset.com/sets/75335-1/BD-1
-brickSetImage: https://images.brickset.com/sets/images/75335-1.jpg?202201040356
+builtImage: https://images.brickset.com/sets/images/75335-1.jpg?202201040356
 theme1: blue-darken-4
 heroPhotoIndex: 2
 photos:

@@ -1,12 +1,13 @@
 ---
 name: Armored Assault Tank (AAT)
+subtitle:
 legoId: 75283-1
 legoTheme: Star Wars
 legoSubtheme: The Clone Wars
 dateReleased: '2020-08-01'
 pieces: 286
 bricksetLink: https://brickset.com/sets/75283-1/Armored-Assault-Tank-(AAT)
-brickSetImage: https://images.brickset.com/sets/images/75283-1.jpg?202006170155
+builtImage: https://images.brickset.com/sets/images/75283-1.jpg?202006170155
 theme1: indigo-darken-4
 heroPhotoIndex: 0
 photos:
