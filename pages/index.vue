@@ -9,7 +9,7 @@ const setsListData = await queryContent('/set').find();
 setsListData.sort((a, b) => {
   const publishedDateA = a.dates[0];
   const publishedDateB = b.dates[0];
-  return new Date(publishedDateA) - new Date(publishedDateB);
+  return new Date(publishedDateB) - new Date(publishedDateA);
 });
 </script>
 
