@@ -1,10 +1,10 @@
 ---
 name: "Hogwarts Moment: Divination Class"
 subtitle:
-legoId: 76396-1
+legoId: 76396
 legoTheme: Harry Potter
 legoSubtheme: Hogwarts Moments
-dateReleased: '2022-03-01'
+dateReleased: '03-01-2022'
 pieces: 297
 bricksetLink: https://brickset.com/sets/76396-1/Hogwarts-Moment-Divination-Class
 builtImage: https://images.brickset.com/sets/images/76396-1.jpg?202109060929
@@ -21,7 +21,7 @@ photos:
     height: 1152
     altText: Lego Bag 2
 dates:
-  - '2023-04-26'
+  - '04-26-2023'
 ---
 
 Love the way these turned out.

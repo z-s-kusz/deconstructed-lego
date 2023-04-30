@@ -4,7 +4,8 @@ subtitle: Midi X-wing, Episode 6
 legoId: 30654
 legoTheme: Star Wars
 legoSubtheme: Episode VI
-dateReleased: '2023-01-01'
+# MM-dd-YYYY was y m d
+dateReleased: '01-01-2023'
 pieces: 87
 bricksetLink: https://brickset.com/sets/30654-1/X-wing-Starfighter
 builtImage: https://live.staticflickr.com/65535/52856289144_cab51c0825_k.jpg
@@ -27,7 +28,7 @@ photos:
     altText: Spare Parts
 
 dates:
-  - '2023-04-28'
+  - '04-28-2023'
 ---
 
 This is a peculiar set.

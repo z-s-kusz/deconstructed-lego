@@ -1,10 +1,10 @@
 ---
 name: Inquisitor Transport Scythe
 subtitle:
-legoId: 75336-1
+legoId: 75336
 legoTheme: Star Wars
 legoSubtheme: Obi-Wan Kenobe
-dateReleased: '2020-08-01'
+dateReleased: '08-01-2020'
 pieces: 924
 bricksetLink: https://brickset.com/sets/75336-1/Inquisitor-Transport-Scythe
 builtImage: https://images.brickset.com/sets/images/75336-1.jpg?202201040356
@@ -66,7 +66,7 @@ photos:
     height: 1356
     altText: Lego Bag 8 - Side Angle (Again)
 dates:
-  - '2023-04-26'
+  - '04-26-2023'
 ---
 
 This was another fun one to arrange.

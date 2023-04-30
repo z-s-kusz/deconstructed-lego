@@ -1,10 +1,10 @@
 ---
 name: Easter Chicks
 subtitle:
-legoId: 40527-1
+legoId: 40527
 legoTheme: Seasonal
 legoSubtheme: Easter
-dateReleased: '2022-03-25'
+dateReleased: '03-25-2022'
 pieces: 318
 bricksetLink: https://brickset.com/sets/40527-1/Easter-Chicks
 builtImage: https://images.brickset.com/sets/images/40527-1.jpg?202201290924
@@ -16,7 +16,7 @@ photos:
     height: 1424
     altText: Lego Bag 1
 dates:
-  - '2023-04-26'
+  - '04-26-2023'
 ---
 
 Looks like I'm missing a bag in my photos, only the egg pieces are shown here. Probably for the best,

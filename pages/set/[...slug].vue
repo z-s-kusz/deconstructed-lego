@@ -7,7 +7,7 @@ const setData = await queryContent().where({ _path: path }).findOne();
 const themeDisplay = setData.legoSubtheme ?
   `Themes: ${setData.legoTheme}, ${setData.legoSubtheme}` :
   `Theme: ${setData.legoTheme}`;
-const releaseDate = new Date(setData.dateReleased).toDateString();
+const releaseDate = new Date(setData.dateReleased).toLocaleDateString();
 </script>
 
 <template>
@@ -20,6 +20,7 @@ const releaseDate = new Date(setData.dateReleased).toDateString();
         <p>{{ themeDisplay }}</p>
         <p>Piece Count: {{ setData.pieces }}</p>
         <p>Release Date: {{ releaseDate }}</p>
+        <p>Set Number: {{ setData.legoId }}</p>
       </header>
       <v-img
           :src="setData.builtImage"

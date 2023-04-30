@@ -1,10 +1,10 @@
 ---
 name: XL-15 Spaceship
 subtitle:
-legoId: 76832-1
+legoId: 76832
 legoTheme: Disney
 legoSubtheme: Lightyear
-dateReleased: '2022-04-24'
+dateReleased: '04-24-2022'
 pieces: 497
 bricksetLink: https://brickset.com/sets/76832-1/XL-15-Spaceship
 builtImage: https://images.brickset.com/sets/images/76832-1.jpg?202110150702
@@ -41,7 +41,7 @@ photos:
     height: 2048
     altText: Lego Bag 5
 dates:
-  - '2023-04-26'
+  - '04-26-2023'
 ---
 
 Not bad altogether. Good layouts, just a bit messy with the skewed parts alignment.

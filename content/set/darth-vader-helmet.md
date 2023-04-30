@@ -1,10 +1,10 @@
 ---
 name: Darth Vader Helmet
 subtitle:
-legoId: 75304-1
+legoId: 75304
 legoTheme: Star Wars
 legoSubtheme: Helmet Collection
-dateReleased: '2021-04-26'
+dateReleased: '04-26-2021'
 pieces: 834
 bricksetLink: https://brickset.com/sets/75304-1/Darth-Vader-Helmet
 builtImage: https://images.brickset.com/sets/images/75304-1.jpg?202009130608
@@ -41,7 +41,7 @@ photos:
     height: 1282
     altText: Lego Bag 6
 dates:
-  - '2023-04-26'
+  - '04-26-2023'
 ---
 
 Messy arrangements, harsh light, cut off subjects, skewed angles and changing backgrounds.

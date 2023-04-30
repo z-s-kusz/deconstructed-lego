@@ -4,7 +4,7 @@ subtitle: Micro Scale Quidditch Practice
 legoId: 30651
 legoTheme: Harry Potter
 legoSubtheme:
-dateReleased: '2023-03-01'
+dateReleased: '03-01-2023'
 pieces: 55
 bricksetLink: https://brickset.com/sets/30651-1/Quidditch-Practice
 builtImage: https://live.staticflickr.com/65535/52855622302_7560752994_k.jpg
@@ -22,7 +22,7 @@ photos:
     altText: With Minifig and Spare Parts
 
 dates:
-  - '2023-04-29'
+  - '04-29-2023'
 ---
 
 I bought a couple of these sets for the clear and gold parts to use in [MFZ](https://mobileframezero.com/mfz/) builds and figured, why not do a flat lay first?

@@ -1,10 +1,10 @@
 ---
 name: BD-1
 subtitle:
-legoId: 75335-1
+legoId: 75335
 legoTheme: Star Wars
 legoSubtheme: "Jedi: Fallen Order"
-dateReleased: '2022-08-01'
+dateReleased: '08-01-2022'
 pieces: 1062
 bricksetLink: https://brickset.com/sets/75335-1/BD-1
 builtImage: https://images.brickset.com/sets/images/75335-1.jpg?202201040356
@@ -41,7 +41,7 @@ photos:
     height: 1152
     altText: Lego Bag 6
 dates:
-  - '2023-04-26'
+  - '04-26-2023'
 ---
 
 This build is awesome. I’m not sure what it is but something about making this one was a lot of fun.

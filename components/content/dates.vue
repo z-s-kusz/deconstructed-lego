@@ -12,12 +12,12 @@ const dateObjects = dates.map((date) => {
 
 <template>
   <div class="text-medium-emphasis text-caption">
-    <span>Posted: {{ dateObjects[0].toDateString() }}</span>
+    <span>Posted: {{ dateObjects[0].toLocaleDateString() }}</span>
 
     <template v-if="dateObjects.length > 1">
       <span>, Updated: </span>
       <span v-for="date in dateObjects">
-        {{ date.toDateString() }} |
+        {{ date.toLocaleDateString() }} |
       </span>
     </template>
   </div>
