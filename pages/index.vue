@@ -17,13 +17,8 @@ setsListData.sort((a, b) => {
   <section class="container">
     <v-card v-for="set in setsListData" :key="set._path" class="grid-item">
       <NuxtLink :to="set._path">
-        <v-img
-          :src="set.photos[set.heroPhotoIndex].link"
-          :alt="set.name"
-          class="align-end lego-photo"
-          cover
-          aspect-ratio="1/1"
-        >
+        <v-img :src="set.photos[set.heroPhotoIndex].link" :alt="set.name" class="align-end lego-photo" cover
+          aspect-ratio="1/1">
           <v-card-title class="photo-label" v-text="set.name"></v-card-title>
         </v-img>
       </NuxtLink>
@@ -36,26 +31,31 @@ setsListData.sort((a, b) => {
   height: 408px;
   width: 408px;
 }
+
 .container {
+  margin-top: 1.5rem;
   padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(408px, 1fr));
   grid-gap: 0.5rem;
 }
 
-@media screen and (max-width: 408px) {
+@media screen and (max-width: 420px) {
   .lego-photo {
-    height: 360px;
-    width: 360px;
+    height: 374px;
+    width: 374px;
   }
+
   .container {
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
+    padding-left: 0;
+    padding-right: 0;
   }
 }
+
 .grid-item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 </style>
