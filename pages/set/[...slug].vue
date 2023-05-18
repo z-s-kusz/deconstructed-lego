@@ -41,8 +41,10 @@ const releaseDate = new Date(setData.dateReleased).toLocaleDateString();
       </header>
       <v-img :src="setData.builtImage" :alt="`${setData.name} Brickset DB Image`" class="lego-image" />
       <v-divider class="divider"></v-divider>
-      <ContentDoc />
-      <Dates :dates="setData.dates" />
+      <section class="writeup">
+        <ContentDoc />
+        <Dates :dates="setData.dates" />
+      </section>
     </v-card>
 
     <v-card v-for="photo in setData.photos" class="image-container">
@@ -99,6 +101,12 @@ td:nth-child(2) {
 a {
   color: white;
   text-decoration-color: white;
+}
+
+.writeup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .lego-image {

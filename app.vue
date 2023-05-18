@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import AppFooter from './components/content/app-footer.vue';
-
+import './public/style.css';
 
 useHead({
   title: 'Lego Deconstructions',
