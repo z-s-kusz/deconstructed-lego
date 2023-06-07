@@ -17,8 +17,8 @@ dates:
   - '06-07-2023'
 ---
 
-Building on the porch table cloth was a nightmare.
-Small movements shifted the cloth,moving things out of order and sharp corners got stuck in the threads.
+Building on the porch tablecloth was a nightmare.
+Small movements shifted the cloth, moving things out of order and sharp corners got stuck in the threads.
 
 Anywho, it was a fun little flat lay that will go unbuilt;
 I purchased it to cannibalize for [MFZ](https://mobileframezero.com/mfz/) parts.
