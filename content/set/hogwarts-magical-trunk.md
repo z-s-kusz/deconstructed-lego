@@ -80,7 +80,7 @@ This one feels less portable than the book series since the back of the trunk is
 unlike the books which have the spine as the back.
 The closed appearance is achieved by placing a row of the tall furniture builds
 but it’s delicate since they are held on by 2 studs.
-The lock mechanism for the chest (black, hooked 2 * 2 in bag 1) and the key piece (bag 5) are very cool.
+The lock mechanism for the chest (black, hooked 2*2 piece in bag 2) and the key piece (bag 5) are very cool.
 
 When I got to building bag 3 I could see it was very similar to bag 2 so I divided them by color to add some variety.
 I’m not 100% on the color names on each image, lego has an astonishing array of dark-orange/brown/tan/sandpaper colored bricks.
