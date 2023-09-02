@@ -4,14 +4,16 @@ import rivendellImages from '../../utils/rivendell-images';
 useHead({
     title: 'Rivendell - Deconstructed',
 });
-
 const images = rivendellImages;
-console.log('hey', rivendellImages);
+console.log('hey', images);
 </script>
 
 <template>
     <section class="container">
         <div>test look im a test look at me</div>
+        <div :class="images.basePlates.class">
+            <v-img :src="images.basePlates.link" :alt="images.basePlates.altText" class="lego-image" />
+        </div>
     </section>
 </template>
 
@@ -25,7 +27,8 @@ console.log('hey', rivendellImages);
     margin-top: 1.5rem;
     padding: 0.5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(408px, 1fr));
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(27, 1fr);
     grid-gap: 0.5rem;
 }
 
@@ -36,7 +39,7 @@ console.log('hey', rivendellImages);
     }
 
     .container {
-        grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
+        /* grid-template-columns: repeat(auto-fit, minmax(374px, 1fr)); */
         padding-left: 0;
         padding-right: 0;
     }
@@ -46,5 +49,11 @@ console.log('hey', rivendellImages);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* styles for each image go below here. place any other styles above this line */
+/* --------------------------------------------------------------------------- */
+.base-plates {
+    grid-area: 1 / 1 / 4 / 4;
 }
 </style>
