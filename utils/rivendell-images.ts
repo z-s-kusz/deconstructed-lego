@@ -48,6 +48,7 @@ const rivendellImages: any = {
         name: 'Stickers',
         description: "",
     },
+
     bags1_2: {
         link: 'https://live.staticflickr.com/65535/53159724645_37e360d91a_k.jpg',
         width: 2048,
@@ -136,6 +137,7 @@ const rivendellImages: any = {
         name: 'Bag 11',
         description: '',
     },
+
     bags12_13: {
         link: 'https://live.staticflickr.com/65535/53159791513_5175b08a0b_k.jpg',
         width: 1792,
@@ -224,6 +226,7 @@ const rivendellImages: any = {
         name: 'Bag 22',
         description: '',
     },
+
     bag23: {
         link: 'https://live.staticflickr.com/65535/53159508879_f2b4f8c140_k.jpg',
         width: 2048,

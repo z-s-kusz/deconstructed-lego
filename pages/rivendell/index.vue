@@ -9,28 +9,94 @@ const images = rivendellImages;
 
 <template>
     <section class="container">
-        <div class="w6 h2">
+        <div class="w9 h5">
             <v-img :src="images.boxArt.link" :alt="images.boxArt.altText" />
             <p>{{ images.boxArt.description }}</p>
         </div>
-        <div class="w3 h1">
+
+        <!-- todo pop somewhere else -->
+        <div class="w9 h2">
             <v-img :src="images.boxInBox.link" :alt="images.boxInBox.altText" />
         </div>
-        <div class="w3 h1">
+
+        <div class="w4 h3">
+            <v-img :src="images.stickers.link" :alt="images.stickers.altText" />
+        </div>
+        <div class="w5 h4">
+            <v-img :src="images.books.link" :alt="images.books.altText" />
+        </div>
+        <div class="w4 h3">
+            <v-img :src="images.basePlates.link" :alt="images.basePlates.altText" />
+        </div>
+        <div class="w4 h2">
             <v-img :src="images.fullOfBags.link" :alt="images.fullOfBags.altText" />
         </div>
 
-
-        <div class="w3 h1">
-            <v-img :src="images.stickers.link" :alt="images.stickers.altText" />
-        </div>
-        <div class="w6 h2">
-            <v-img :src="images.books.link" :alt="images.books.altText" />
-        </div>
-        <div class="w3 h1">
-            <v-img :src="images.basePlates.link" :alt="images.basePlates.altText" />
+        <div class="w9 h6">
+            <v-img :src="images.bags1_2.link" :alt="images.bags1_2.altText" />
         </div>
 
+        <div class="w6 h4">
+            <v-img :src="images.bags3_4.link" :alt="images.bags3_4.altText" />
+        </div>
+        <div class="w3 h2">
+            <v-img :src="images.bag5.link" :alt="images.bag5.altText" />
+        </div>
+        <div class="w3 h6">
+            <v-img :src="images.bag8.link" :alt="images.bag8.altText" />
+        </div>
+
+        <div class="w6 h4">
+            <v-img :src="images.bag6.link" :alt="images.bag6.altText" />
+        </div>
+
+
+        <div class="w3 h3">
+            <v-img :src="images.bag7.link" :alt="images.bag7.altText" />
+        </div>
+        <div class="w6 h3">
+            <v-img :src="images.bag10Angled.link" :alt="images.bag10Angled.altText" />
+        </div>
+
+        <div class="w3 h3">
+            <v-img :src="images.bag9.link" :alt="images.bag9.altText" />
+        </div>
+        <div class="w3 h2">
+            <v-img :src="images.bag11.link" :alt="images.bag11.altText" />
+        </div>
+        <div class="w3 h3">
+            <v-img :src="images.bag10.link" :alt="images.bag10.altText" />
+        </div>
+
+        <div class="w5 h4">
+            <v-img :src="images.bag11_1x1.link" :alt="images.bag11_1x1.altText" />
+        </div>
+        <div class="w4 h3">
+            <v-img :src="images.bags12_13.link" :alt="images.bags12_13.altText" />
+        </div>
+        <div class="w4 h2">
+            <v-img :src="images.bag14.link" :alt="images.bag14.altText" />
+        </div>
+
+        <div class="w5 h4">
+            <v-img :src="images.bag15.link" :alt="images.bag15.altText" />
+        </div>
+        <div class="w4 h3">
+            <v-img :src="images.bags16_17.link" :alt="images.bags16_17.altText" />
+        </div>
+
+        <div class="w4 h4">
+            <v-img :src="images.bag18.link" :alt="images.bag18.altText" />
+        </div>
+        <div class="w5 h3">
+            <v-img :src="images.bag19.link" :alt="images.bag19.altText" />
+        </div>
+        <div class="w3 h2">
+            <v-img :src="images.bags16_17Angled.link" :alt="images.bags16_17Angled.altText" />
+        </div>
+        <div class="w2 h2">
+            <v-img :src="images.tinyivy.link" :alt="images.tinyivy.altText" />
+        </div>
     </section>
 </template>
 
@@ -40,7 +106,7 @@ const images = rivendellImages;
     padding: 0.5rem;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(27, 1fr);
+    grid-template-rows: repeat(81, 171px);
     grid-gap: 0.5rem;
 }
 
