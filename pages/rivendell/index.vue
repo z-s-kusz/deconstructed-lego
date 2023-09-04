@@ -5,24 +5,36 @@ useHead({
     title: 'Rivendell - Deconstructed',
 });
 const images = rivendellImages;
-console.log('hey', images);
 </script>
 
 <template>
     <section class="container">
-        <div>test look im a test look at me</div>
-        <div :class="images.basePlates.class">
-            <v-img :src="images.basePlates.link" :alt="images.basePlates.altText" class="lego-image" />
+        <div class="w6 h2">
+            <v-img :src="images.boxArt.link" :alt="images.boxArt.altText" />
+            <p>{{ images.boxArt.description }}</p>
         </div>
+        <div class="w3 h1">
+            <v-img :src="images.boxInBox.link" :alt="images.boxInBox.altText" />
+        </div>
+        <div class="w3 h1">
+            <v-img :src="images.fullOfBags.link" :alt="images.fullOfBags.altText" />
+        </div>
+
+
+        <div class="w3 h1">
+            <v-img :src="images.stickers.link" :alt="images.stickers.altText" />
+        </div>
+        <div class="w6 h2">
+            <v-img :src="images.books.link" :alt="images.books.altText" />
+        </div>
+        <div class="w3 h1">
+            <v-img :src="images.basePlates.link" :alt="images.basePlates.altText" />
+        </div>
+
     </section>
 </template>
 
 <style scoped>
-.lego-photo {
-    height: 408px;
-    width: 408px;
-}
-
 .container {
     margin-top: 1.5rem;
     padding: 0.5rem;
@@ -32,12 +44,12 @@ console.log('hey', images);
     grid-gap: 0.5rem;
 }
 
-@media screen and (max-width: 420px) {
-    .lego-photo {
-        height: 374px;
-        width: 374px;
-    }
+p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
+@media screen and (max-width: 420px) {
     .container {
         /* grid-template-columns: repeat(auto-fit, minmax(374px, 1fr)); */
         padding-left: 0;
@@ -53,7 +65,88 @@ console.log('hey', images);
 
 /* styles for each image go below here. place any other styles above this line */
 /* --------------------------------------------------------------------------- */
-.base-plates {
-    grid-area: 1 / 1 / 4 / 4;
+.box-art {
+    grid-column: span 6;
+    grid-row: span 4;
+}
+
+.w2 {
+    grid-column: span 2;
+}
+
+.w3 {
+    grid-column: span 3;
+}
+
+.w4 {
+    grid-column: span 4;
+}
+
+.w5 {
+    grid-column: span 5;
+}
+
+.w6 {
+    grid-column: span 6;
+}
+
+.w7 {
+    grid-column: span 7;
+}
+
+.w8 {
+    grid-column: span 8;
+}
+
+.w9 {
+    grid-column: span 9;
+}
+
+.h1 {
+    grid-row: span 1;
+}
+
+.h2 {
+    grid-row: span 2;
+}
+
+.h3 {
+    grid-row: span 3;
+}
+
+.h4 {
+    grid-row: span 4;
+}
+
+.h5 {
+    grid-row: span 5;
+}
+
+.h6 {
+    grid-row: span 6;
+}
+
+.h7 {
+    grid-row: span 7;
+}
+
+.h8 {
+    grid-row: span 8;
+}
+
+.h9 {
+    grid-row: span 9;
+}
+
+.h10 {
+    grid-row: span 10;
+}
+
+.h11 {
+    grid-row: span 11;
+}
+
+.h12 {
+    grid-row: span 12;
 }
 </style>
