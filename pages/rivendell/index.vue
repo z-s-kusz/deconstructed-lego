@@ -32,14 +32,14 @@ const images = rivendellImages;
             <v-img :src="images.bags1_2.link" :alt="images.bags1_2.altText" />
         </div>
 
-        <div class="w6 h4">
+        <div class="w6 h4 green">
             <v-img :src="images.bags3_4.link" :alt="images.bags3_4.altText" />
         </div>
         <div class="w3 h2">
             <v-img :src="images.bag5.link" :alt="images.bag5.altText" />
         </div>
-        <div class="w3 h6">
-            <v-img :src="images.bag8.link" :alt="images.bag8.altText" />
+        <div class="w3 h6 blue">
+            <v-img :src="images.bag8.link" :alt="images.bag8.altText" height="100%" />
         </div>
 
         <div class="w6 h4">
@@ -48,9 +48,9 @@ const images = rivendellImages;
 
 
         <div class="w3 h3">
-            <v-img :src="images.bag7.link" :alt="images.bag7.altText" />
+            <v-img :src="images.bag7.link" :alt="images.bag7.altText" height="100%" />
         </div>
-        <div class="w6 h3">
+        <div class="w6 h3 green">
             <v-img :src="images.bag10Angled.link" :alt="images.bag10Angled.altText" />
         </div>
 
@@ -186,7 +186,7 @@ const images = rivendellImages;
         <div class="w3 h3">
             <v-img :src="images.bag47.link" :alt="images.bag47.altText" />
         </div>
-        <div class="w6 h1 bleh"></div>
+        <div class="w6 h1 green"></div>
     </section>
 </template>
 
@@ -196,7 +196,7 @@ const images = rivendellImages;
     padding: 0.5rem;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(90, 171px);
+    grid-auto-rows: 171px;
     grid-gap: 0.5rem;
 }
 
