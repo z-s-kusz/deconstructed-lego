@@ -244,9 +244,9 @@ const rivendellImages: any = {
         description: '',
     },
     bag26: {
-        link: 'https://live.staticflickr.com/65535/53159792873_dcef36c467_k.jpg',
+        link: 'https://live.staticflickr.com/65535/53159792873_197ffe6558_k.jpg',
         width: 2048,
-        height: 1368,
+        height: 1385,
         class: 'bag26',
         name: 'Bag 26',
         description: '',
