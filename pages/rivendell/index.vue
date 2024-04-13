@@ -97,12 +97,13 @@ const images = rivendellImages;
 
         <div class="w2 h3">
             <v-img :src="images.tinyivy.link" :alt="images.tinyivy.altText" />
+            <p>Tiny Ivy chasing bugs under the lamp during a late photo session.</p>
         </div>
         <div class="w3 h2 green">
             <v-img :src="images.bag22.link" :alt="images.bag22.altText" />
         </div>
         <div class="w4 h2 green">
-            Bag 23 goes here flikr issues :(
+            <p>Bag 23 goes here... flikr image issue :(</p>
             <v-img :src="images.bag23.link" :alt="images.bag23.altText" />
         </div>
         <div class="w3 h2 blue">
@@ -165,6 +166,7 @@ const images = rivendellImages;
 
         <div class="w4 h5 tan">
             <v-img :src="images.bag41Tiles.link" :alt="images.bag41Tiles.altText" />
+            <p>Lego candy buttons sheet!</p>
         </div>
         <div class="w5 h3 blue">
             <v-img :src="images.bag44.link" :alt="images.bag44.altText" />
@@ -220,13 +222,16 @@ p {
 }
 
 .green {
-    background-color: hsl(137,17%,42%);
+    background: hsl(137,17%,42%);
+    background: linear-gradient(43deg, hsl(137,17%,42%) 0%, hsl(145,18%,34%) 100%);
 }
 .tan {
     background-color: hsl(22,58%,56%);
+    background: linear-gradient(40deg, hsl(22,58%,56%) 0%, hsl(25,57%,42%));
 }
 .blue {
     background-color: hsl(214,23%,45%);
+    background: linear-gradient(48deg, hsl(214,23%,45%) 0%, hsl(213,32%,31%));
 }
 
 /* styles for each image go below here. place any other styles above this line */
