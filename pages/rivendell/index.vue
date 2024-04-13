@@ -11,7 +11,42 @@ const images = rivendellImages;
     <section class="container">
         <div class="w9 h5 green">
             <v-img :src="images.boxArt.link" :alt="images.boxArt.altText" />
-            <p>{{ images.boxArt.description }}</p>
+        </div>
+
+        <div class="writeup w9">
+            <p>
+                Lego Rivendell!
+                I did the flat lay, photography and building of this set over August and September of 2023.
+                I wanted to give this huge set a unique page layout with an interlaced grid and dang that was difficult!
+                It didn't take me 7 months to get the grid working but it did take 3 long programming sessions,
+                the first of which put me off getting this page published until today.
+            </p>
+
+            <p>
+                Sorry mobile users,
+                I figured I could get a simple version of the grid going but it was way harder to get working on desktop than I thought
+                so mobile is just the standard image stacks that all my other set pages have.
+                Please take a look at this page on a bigger screen to get the full grid view!
+            </p>
+            <p>
+                As I said, getting the grid to work was waaaay harder than I imagined.
+                If I had each image locked to certain sizes instead of relying on CSS Grid
+                to do all the heavy lifting it would be a lot easier
+                but I wanted to see what I could do with a set of images at any height and width.
+                The end result is pretty neat and just how I envisioned it
+                (except a bit toward the middle I got lazy with).
+            </p>
+            <p>
+                This was a pretty cool build.
+                I photographed bags of Legos together where the instructions called for
+                building a step with multiple bags - it does a bit to help show how large this set is
+                compared to any others on the blog so far.
+            </p>
+            <p>
+                I've wanted to add a basic image zoom feature for a while
+                and this page really calls for it since some images are smaller to fit the grid.
+                Zoom coming soon hopefully!
+            </p>
         </div>
 
         <div class="w4 h3">
@@ -193,12 +228,17 @@ const images = rivendellImages;
 </template>
 
 <style scoped>
+.writeup p {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .container {
     margin-top: 1.5rem;
     padding: 0.5rem;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-auto-rows: 171px;
+    grid-auto-rows: max-content;
     grid-gap: 0.5rem;
 }
 

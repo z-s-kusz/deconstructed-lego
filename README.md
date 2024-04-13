@@ -65,3 +65,6 @@ I found a gotcha where I wrapped a Nuxt Content fetch in a Nuxt async data fetch
 The Nuxt Content docs even have examples using the breaking useAsyncData fetch.
 
 All in all I don’t think I’ll be coming back to Nuxt in the near future.
+
+## Misc notes
+* "grid-auto-rows: max-content;" is amazing.
