@@ -207,14 +207,6 @@ p {
     padding-right: 1rem;
 }
 
-@media screen and (max-width: 420px) {
-    .container {
-        /* grid-template-columns: repeat(auto-fit, minmax(374px, 1fr)); */
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
 .grid-item {
     display: flex;
     align-items: center;
@@ -234,8 +226,7 @@ p {
     background: linear-gradient(48deg, hsl(214,23%,45%) 0%, hsl(213,32%,31%));
 }
 
-/* styles for each image go below here. place any other styles above this line */
-/* --------------------------------------------------------------------------- */
+/* styles for each image */
 .box-art {
     grid-column: span 6;
     grid-row: span 4;
@@ -311,16 +302,23 @@ p {
 .h9 {
     grid-row: span 9;
 }
+/* --------------------------------------------------------------------------- */
 
-.h10 {
-    grid-row: span 10;
-}
-
-.h11 {
-    grid-row: span 11;
-}
-
-.h12 {
-    grid-row: span 12;
+@media screen and (max-width: 500px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .w1,.w2,.w3,.w4,.w5,.w6,.w7,.w8,.w9,.w10,.w11,.w12 {
+        grid-column: span 1;
+    }
+    .h1,.h2,.h3,.h4,.h5,.h6,.h7,.h8,.h9 {
+        grid-row: span 1;
+    }
+    .spacer {
+        display: none;
+    }
 }
 </style>
