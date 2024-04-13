@@ -53,9 +53,10 @@ Even this .md file had a dead link in it when it was initially auto generated.
 
 ‘Nuxt Content’ had an open bug where the npm install command would fail so I worked around it by using yarn.
 
-The directory structure generated with a new ‘Nuxt Content’ project was incomplete and it took me an embarrassingly long time to figure out if I wanted to add things like stand alone components,
+The directory structure generated with a new ‘Nuxt Content’ project was incomplete
+and it took me an embarrassingly long time to figure out how to add things like stand alone components.
 I had to have them in the specific directory structure that Nuxt wanted.
-I admit this one's on me and I may have had a better time learning Nuxt alone before venturing into Content.
+I admit this one's on me and I may have had a better time learning Nuxt alone before venturing into 'Nuxt Content.'
 
 Docs on SSG and deploying are terrible (mostly on the Netlify side to be fair). Looking up anything about deploying returns SSR guides or Nuxt v2 guides.
 ```npx nuxi generate``` is a strange afterthought in all docs except the ‘Nuxt Content’ deploy docs (good on them there).
@@ -64,3 +65,6 @@ I found a gotcha where I wrapped a Nuxt Content fetch in a Nuxt async data fetch
 The Nuxt Content docs even have examples using the breaking useAsyncData fetch.
 
 All in all I don’t think I’ll be coming back to Nuxt in the near future.
+
+## Misc notes
+* "grid-auto-rows: max-content;" is amazing.

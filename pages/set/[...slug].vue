@@ -1,44 +1,15 @@
 <script setup lang="ts">
 import Dates from '~/components/content/dates.vue';
+import setHeader from '~/components/content/set-header.vue';
 
 const { path } = useRoute();
-
 const setData = await queryContent().where({ _path: path }).findOne();
-const themeDisplay = setData.legoSubtheme ?
-  `${setData.legoTheme}, ${setData.legoSubtheme}` :
-  setData.legoTheme;
-const releaseDate = new Date(setData.dateReleased).toLocaleDateString();
 </script>
 
 <template>
   <v-sheet :color="setData.theme1" class="stats">
     <v-card class="blog">
-      <header>
-        <h1>
-          <a :href="setData.bricksetLink">{{ setData.name }}</a>
-        </h1>
-        <table>
-          <tbody>
-            <tr>
-              <td>Set Number:</td>
-              <td>{{ setData.legoId }}</td>
-            </tr>
-            <tr>
-              <td>Piece Count:</td>
-              <td>{{ setData.pieces }}</td>
-            </tr>
-
-            <tr>
-              <td>Release Date:</td>
-              <td>{{ releaseDate }}</td>
-            </tr>
-            <tr>
-              <td>Theme:</td>
-              <td>{{ themeDisplay }}</td>
-            </tr>
-          </tbody>
-        </table>
-      </header>
+      <setHeader :setData="setData" />
       <v-img :src="setData.builtImage" :alt="`${setData.name} Brickset DB Image`" class="lego-image" />
       <v-divider class="divider"></v-divider>
       <section class="writeup">
@@ -56,18 +27,6 @@ const releaseDate = new Date(setData.dateReleased).toLocaleDateString();
 </template>
 
 <style scoped>
-header {
-  margin-bottom: 1rem;
-}
-
-td {
-  padding: 2px 0;
-}
-
-td:nth-child(2) {
-  padding: 2px 1rem;
-}
-
 .stats {
   padding: 2rem;
 }

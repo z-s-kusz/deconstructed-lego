@@ -1,10 +1,14 @@
 <script setup lang="ts">
+import rivendellImages from '~/utils/rivendell-images';
 useHead({
   title: 'Deconstructed Lego',
 });
 
 const setsListData = await queryContent('/set').find();
-
+const rivendell = {
+  path: '/rivendell',
+  heroPhoto: rivendellImages.bags3_4.link,
+};
 // not assigned becuase sort mutates the origional data
 setsListData.sort((a, b) => {
   const publishedDateA = a.dates[0];
@@ -15,6 +19,15 @@ setsListData.sort((a, b) => {
 
 <template>
   <section class="container">
+    <v-card class="grid-item">
+      <NuxtLink :to="rivendell.path">
+        <v-img :src="rivendell.heroPhoto" alt="Lego Rivendell" class="align-end lego-photo" cover
+          aspect-ratio="1/1">
+          <v-card-title class="photo-label">Rivendell</v-card-title>
+        </v-img>
+      </NuxtLink>
+    </v-card>
+
     <v-card v-for="set in setsListData" :key="set._path" class="grid-item">
       <NuxtLink :to="set._path">
         <v-img :src="set.photos[set.heroPhotoIndex].link" :alt="set.name" class="align-end lego-photo" cover
