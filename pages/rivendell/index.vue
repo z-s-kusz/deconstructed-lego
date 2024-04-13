@@ -55,37 +55,37 @@ const images = rivendellImages;
         </div>
 
         <div class="w3 h3">
-            <v-img :src="images.bag9.link" :alt="images.bag9.altText" />
+            <v-img :src="images.bag9.link" :alt="images.bag9.altText" height="100%" />
         </div>
         <div class="w3 h2">
             <v-img :src="images.bag11.link" :alt="images.bag11.altText" />
         </div>
-        <div class="w3 h3">
+        <div class="w3 h3 blue">
             <v-img :src="images.bag10.link" :alt="images.bag10.altText" />
         </div>
         <div class="w3 h1 green"></div>
 
-        <div class="w5 h4">
+        <div class="w5 h4 tan">
             <v-img :src="images.bag11_1x1.link" :alt="images.bag11_1x1.altText" />
         </div>
-        <div class="w4 h3">
-            <v-img :src="images.bags12_13.link" :alt="images.bags12_13.altText" />
+        <div class="w4 h3 green">
+            <v-img :src="images.bags12_13.link" :alt="images.bags12_13.altText" height="100%" />
         </div>
-        <div class="w4 h2">
+        <div class="w4 h2 green">
             <v-img :src="images.bag14.link" :alt="images.bag14.altText" />
         </div>
 
-        <div class="w5 h4">
+        <div class="w5 h4 green">
             <v-img :src="images.bag15.link" :alt="images.bag15.altText" />
         </div>
         <div class="w4 h3">
             <v-img :src="images.bags16_17.link" :alt="images.bags16_17.altText" />
         </div>
 
-        <div class="w4 h4">
+        <div class="w4 h4 tan">
             <v-img :src="images.bag18.link" :alt="images.bag18.altText" />
         </div>
-        <div class="w5 h3">
+        <div class="w5 h3 blue">
             <v-img :src="images.bag19.link" :alt="images.bag19.altText" />
         </div>
         <div class="w5 h3">
@@ -98,41 +98,41 @@ const images = rivendellImages;
         <div class="w2 h3">
             <v-img :src="images.tinyivy.link" :alt="images.tinyivy.altText" />
         </div>
-        <div class="w3 h2">
+        <div class="w3 h2 green">
             <v-img :src="images.bag22.link" :alt="images.bag22.altText" />
         </div>
         <div class="w4 h2 green">
             Bag 23 goes here flikr issues :(
             <v-img :src="images.bag23.link" :alt="images.bag23.altText" />
         </div>
-        <div class="w3 h2">
+        <div class="w3 h2 blue">
             <v-img :src="images.bags24_25.link" :alt="images.bags24_25.altText" />
         </div>
 
-        <div class="w6 h4">
+        <div class="w6 h4 tan">
             <v-img :src="images.bag20.link" :alt="images.bag20.altText" />
         </div>
         <div class="w3 h3">
             <v-img :src="images.bag27Geometric.link" :alt="images.bag27Geometric.altText" />
         </div>
 
-        <div class="w3 h2">
+        <div class="w3 h2 blue">
             <v-img :src="images.bag27Organic.link" :alt="images.bag27Organic.altText" />
         </div>
         <div class="w6 h3">
             <v-img :src="images.bag26.link" :alt="images.bag26.altText" />
         </div>
-        <div class="w3 h4">
+        <div class="w3 h4 green">
             <v-img :src="images.bag36.link" :alt="images.bag36.altText" />
         </div>
 
-        <div class="w3 h3">
+        <div class="w3 h3 tan">
             <v-img :src="images.bag28_29.link" :alt="images.bag28_29.altText" />
         </div>
-        <div class="w3 h2">
+        <div class="w3 h2 blue">
             <v-img :src="images.bag31_32.link" :alt="images.bag31_32.altText" />
         </div>
-        <div class="w3 h2">
+        <div class="w3 h2 blue">
             <v-img :src="images.bag34.link" :alt="images.bag34.altText" />
         </div>
 
@@ -140,7 +140,7 @@ const images = rivendellImages;
             <v-img :src="images.bag30.link" :alt="images.bag30.altText" />
         </div>
         <div class="w2 h1 green spacer"></div>
-        <div class="w5 h4">
+        <div class="w5 h4 green">
             <v-img :src="images.bag35.link" :alt="images.bag35.altText" />
         </div>
         <div class="w4 h3">
@@ -163,27 +163,27 @@ const images = rivendellImages;
             <v-img :src="images.bags42_43.link" :alt="images.bags42_43.altText" />
         </div>
 
-        <div class="w4 h5">
+        <div class="w4 h5 tan">
             <v-img :src="images.bag41Tiles.link" :alt="images.bag41Tiles.altText" />
         </div>
-        <div class="w5 h3">
+        <div class="w5 h3 blue">
             <v-img :src="images.bag44.link" :alt="images.bag44.altText" />
         </div>
         <div class="w5 h2">
             <v-img :src="images.bag39.link" :alt="images.bag39.altText" />
         </div>
 
-        <div class="w9 h3">
+        <div class="w9 h3 blue">
             <v-img :src="images.bag45.link" :alt="images.bag45.altText" />
         </div>
 
-        <div class="w3 h4">
+        <div class="w3 h4 blue">
             <v-img :src="images.bag46.link" :alt="images.bag46.altText" />
         </div>
-        <div class="w3 h3">
+        <div class="w3 h3 tan">
             <v-img :src="images.bags48_49.link" :alt="images.bags48_49.altText" />
         </div>
-        <div class="w3 h3">
+        <div class="w3 h3 blue">
             <v-img :src="images.bag47.link" :alt="images.bag47.altText" />
         </div>
         <div class="w6 h1 green"></div>
