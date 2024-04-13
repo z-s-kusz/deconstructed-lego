@@ -9,20 +9,15 @@ const images = rivendellImages;
 
 <template>
     <section class="container">
-        <div class="w9 h5">
+        <div class="w9 h5 green">
             <v-img :src="images.boxArt.link" :alt="images.boxArt.altText" />
             <p>{{ images.boxArt.description }}</p>
-        </div>
-
-        <!-- todo pop somewhere else -->
-        <div class="w9 h2">
-            <v-img :src="images.boxInBox.link" :alt="images.boxInBox.altText" />
         </div>
 
         <div class="w4 h3">
             <v-img :src="images.stickers.link" :alt="images.stickers.altText" />
         </div>
-        <div class="w5 h4">
+        <div class="w5 h4 blue">
             <v-img :src="images.books.link" :alt="images.books.altText" />
         </div>
         <div class="w4 h3">
@@ -31,8 +26,9 @@ const images = rivendellImages;
         <div class="w4 h2">
             <v-img :src="images.fullOfBags.link" :alt="images.fullOfBags.altText" />
         </div>
+        <div class="w1 h2 green spacer"></div>
 
-        <div class="w9 h6">
+        <div class="w9 h6 tan">
             <v-img :src="images.bags1_2.link" :alt="images.bags1_2.altText" />
         </div>
 
@@ -67,7 +63,7 @@ const images = rivendellImages;
         <div class="w3 h3">
             <v-img :src="images.bag10.link" :alt="images.bag10.altText" />
         </div>
-        <div class="w3 h1 bleh"></div>
+        <div class="w3 h1 green"></div>
 
         <div class="w5 h4">
             <v-img :src="images.bag11_1x1.link" :alt="images.bag11_1x1.altText" />
@@ -105,7 +101,7 @@ const images = rivendellImages;
         <div class="w3 h2">
             <v-img :src="images.bag22.link" :alt="images.bag22.altText" />
         </div>
-        <div class="w4 h2 bleh">
+        <div class="w4 h2 green">
             Bag 23 goes here flikr issues :(
             <v-img :src="images.bag23.link" :alt="images.bag23.altText" />
         </div>
@@ -143,7 +139,7 @@ const images = rivendellImages;
         <div class="w4 h3">
             <v-img :src="images.bag30.link" :alt="images.bag30.altText" />
         </div>
-        <div class="w2 h1 bleh"></div>
+        <div class="w2 h1 green spacer"></div>
         <div class="w5 h4">
             <v-img :src="images.bag35.link" :alt="images.bag35.altText" />
         </div>
@@ -223,8 +219,14 @@ p {
     justify-content: center;
 }
 
-.bleh {
-    background-color: brown;
+.green {
+    background-color: hsl(137,17%,42%);
+}
+.tan {
+    background-color: hsl(22,58%,56%);
+}
+.blue {
+    background-color: hsl(214,23%,45%);
 }
 
 /* styles for each image go below here. place any other styles above this line */
@@ -234,6 +236,9 @@ p {
     grid-row: span 4;
 }
 
+.w1 {
+    grid-column: span 1;
+}
 .w2 {
     grid-column: span 2;
 }
