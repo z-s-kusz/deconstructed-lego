@@ -1,14 +1,30 @@
 <script setup lang="ts">
+import Dates from '~/components/content/dates.vue';
 import rivendellImages from '../../utils/rivendell-images';
+import setHeader from '~/components/content/set-header.vue';
 
 useHead({
     title: 'Rivendell - Deconstructed',
 });
 const images = rivendellImages;
+const dates = [
+    new Date('04/13/2024'),
+];
+const setData = {
+    name: 'Rivendell',
+    legoTheme: 'The Lord of the Rings',
+    dateReleased: '03-05-23',
+    legoId: '10316',
+    pieces: 6167,
+    bricksetLink: 'https://brickset.com/sets/10316-1/The-Lord-of-the-Rings-Rivendell',
+};
 </script>
 
 <template>
     <section class="container">
+        <div class="w9">
+            <setHeader :setData="setData" />
+        </div>
         <div class="w9 h5 green">
             <v-img :src="images.boxArt.link" :alt="images.boxArt.altText" />
         </div>
@@ -47,6 +63,7 @@ const images = rivendellImages;
                 and this page really calls for it since some images are smaller to fit the grid.
                 Zoom coming soon hopefully!
             </p>
+            <Dates :dates="dates" />
         </div>
 
         <div class="w4 h3 green">
