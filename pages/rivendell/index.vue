@@ -8,7 +8,7 @@ useHead({
 });
 const images = rivendellImages;
 const dates = [
-    new Date('04/13/2024'),
+    '04-13-24',
 ];
 const setData = {
     name: 'Rivendell',
@@ -29,7 +29,7 @@ const setData = {
             <v-img :src="images.boxArt.link" :alt="images.boxArt.altText" />
         </div>
 
-        <div class="writeup w9">
+        <div class="writeup w9 unflex">
             <p>
                 Lego Rivendell!
                 I did the flat lay, photography and building of this set over August and September of 2023.
@@ -63,7 +63,7 @@ const setData = {
                 and this page really calls for it since some images are smaller to fit the grid.
                 Zoom coming soon hopefully!
             </p>
-            <Dates :dates="dates" />
+            <Dates :dates="dates" class="dates" />
         </div>
 
         <div class="w4 h3 green">
@@ -147,7 +147,7 @@ const setData = {
             <v-img :src="images.bag21.link" :alt="images.bag21.altText" />
         </div>
 
-        <div class="w2 h3 blue">
+        <div class="w2 h3 blue unflex">
             <v-img :src="images.tinyivy.link" :alt="images.tinyivy.altText" />
             <p>Tiny Ivy chasing bugs under the lamp during a late photo session.</p>
         </div>
@@ -155,7 +155,6 @@ const setData = {
             <v-img :src="images.bag22.link" :alt="images.bag22.altText" />
         </div>
         <div class="w4 h2 tan">
-            <p>Bag 23 goes here... flikr image issue :(</p>
             <v-img :src="images.bag23.link" :alt="images.bag23.altText" />
         </div>
         <div class="w3 h2 tan">
@@ -216,7 +215,7 @@ const setData = {
             <v-img :src="images.bags42_43.link" :alt="images.bags42_43.altText" />
         </div>
 
-        <div class="w4 h5 tan">
+        <div class="w4 h5 tan unflex">
             <v-img :src="images.bag41Tiles.link" :alt="images.bag41Tiles.altText" />
             <p>Lego candy buttons sheet!</p>
         </div>
@@ -250,6 +249,11 @@ const setData = {
     margin-left: auto;
 }
 
+.dates {
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     margin-top: 1.5rem;
     padding: 0.5rem;
@@ -264,10 +268,12 @@ p {
     padding-right: 1rem;
 }
 
-.grid-item {
+section div {
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.unflex {
+    display: initial;
 }
 
 .green {

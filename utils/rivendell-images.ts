@@ -228,9 +228,9 @@ const rivendellImages: any = {
     },
 
     bag23: {
-        link: 'https://live.staticflickr.com/65535/53159508879_f2b4f8c140_k.jpg',
+        link: 'https://live.staticflickr.com/65535/53159508879_9557e3918d_k.jpg',
         width: 2048,
-        height: 1536,
+        height: 1445,
         class: 'bag23',
         name: 'Bag 23',
         description: 'Start of instruction book 3.',
