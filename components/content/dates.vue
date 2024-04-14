@@ -1,6 +1,7 @@
 <script setup lang="ts">
 interface Props {
   dates: string[];
+  class?: string;
 }
 
 const props = defineProps<Props>();
@@ -11,7 +12,7 @@ const dateObjects = dates.map((date) => {
 </script>
 
 <template>
-  <div class="text-medium-emphasis text-caption">
+  <div :class="`text-medium-emphasis text-caption ${props.class || ''}`">
     <span>Posted: {{ dateObjects[0].toLocaleDateString() }}</span>
 
     <template v-if="dateObjects.length > 1">
