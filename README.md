@@ -42,7 +42,7 @@ Build Command: npx nuxi generate
 
 Publish Directory: dist
 
-I also added a netlify.toml file with an empty "\[\[redirects\]\]" section but I don't think that did anything.
+Added an empty netlify.toml file.
 
 # Nuxt 3 for a first time user (as of April 2023)
 My experience was rough.
