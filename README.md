@@ -68,3 +68,4 @@ All in all I don’t think I’ll be coming back to Nuxt in the near future.
 
 ## Misc notes
 * "grid-auto-rows: max-content;" is amazing.
+* Need to process alt text to remove escape characters (ie. \\#2);
