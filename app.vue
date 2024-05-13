@@ -4,7 +4,7 @@ import './public/style.css';
 
 useHead({
   title: 'Lego Deconstructions',
-  link: [{ rel: 'icon', type: 'image/png', href: '/parts-icon.png' }],
+  link: [{ rel: 'icon', type: 'image/png', href: '/parts-100.png' }],
 });
 
 const { data: setsListData } = await useAsyncData('setsList', () => {
