@@ -1,14 +1,24 @@
 <script setup lang="ts">
 import rivendellImages from '~/utils/rivendell-images';
-useHead({
-  title: 'Deconstructed Lego',
-});
 
-const setsListData = await queryContent('/set').find();
 const rivendell = {
   path: '/rivendell',
   heroPhoto: rivendellImages.bags3_4.link,
 };
+
+useHead({
+  title: 'Deconstructed Lego',
+  meta: [
+    { property: 'og:title', content: 'Deconstructed Lego' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: rivendell.heroPhoto },
+    { property: 'og:url', content: 'https://deconstructed-lego.com' },
+    { property: 'og:description', content: 'Lego sets set out piece by piece in beautiful arrangements.' },
+  ]
+});
+
+const setsListData = await queryContent('/set').find();
+
 // not assigned becuase sort mutates the origional data
 setsListData.sort((a, b) => {
   const publishedDateA = a.dates[0];
