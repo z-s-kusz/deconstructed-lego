@@ -24,7 +24,7 @@
 
 <style>
     .site-header {
-        background-image: url('https://live.staticflickr.com/65535/54022075669_bdf0cec84a_h.jpg');
+        background-image: url('https://live.staticflickr.com/65535/54022075669_602bfd52fb_b.jpg');
         background-position: 25% 50%;
     }
 

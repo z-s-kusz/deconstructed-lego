@@ -28,7 +28,7 @@
         <a href={`./set/${set.name}`} class="grid-item">
             <figure>
                 <img src={setPhoto(set).link} alt={set.name}
-                    width={setPhoto(set).width} height={setPhoto(set).height} />
+                    loading="lazy" width={setPhoto(set).width} height={setPhoto(set).height} />
                 <figcaption>{set.metadata.name}</figcaption>
             </figure>
         </a>

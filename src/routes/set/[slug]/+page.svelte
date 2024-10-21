@@ -22,7 +22,7 @@
 
     {#each images as image}
         <figure>
-            <img src={image.link} alt={image.altText} />
+            <img src={image.link} alt={image.altText} loading="lazy" />
             <figcaption>{image.altText}</figcaption>
         </figure>
     {/each}
