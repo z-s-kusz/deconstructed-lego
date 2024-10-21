@@ -1,17 +1,25 @@
 <script lang="ts">
     import rivendellImages from '$lib/special-sets/rivendell-images';
+	import type { Photo, Set } from '$lib/types/set-types';
     let { data } = $props();
 
     const rivendell = {
         name: 'rivendell',
         heroPhoto: rivendellImages.bags3_4.link,
+        width: rivendellImages.bags3_4.width,
+        height: rivendellImages.bags3_4.height,
+    };
+
+    const setPhoto = (set: Set): Photo => {
+        return set.metadata.photos[set.metadata.heroPhotoIndex];
     };
 </script>
 
 <section class="container">
     <a href={`./set/${rivendell.name}`} class="grid-item">
         <figure>
-            <img src={rivendell.heroPhoto} alt="Rivendell" />
+            <img src={rivendell.heroPhoto} alt="Rivendell"
+                width={rivendell.width} height={rivendell.height} />
             <figcaption>Rivendell</figcaption>
         </figure>
     </a>
@@ -19,7 +27,8 @@
     {#each data.sets as set }
         <a href={`./set/${set.name}`} class="grid-item">
             <figure>
-                <img src={set.metadata.photos[set.metadata.heroPhotoIndex].link} alt={set.name} />
+                <img src={setPhoto(set).link} alt={set.name}
+                    width={setPhoto(set).width} height={setPhoto(set).height} />
                 <figcaption>{set.metadata.name}</figcaption>
             </figure>
         </a>

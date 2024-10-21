@@ -1,4 +1,4 @@
-import type { SetMetaData } from "$lib/types/set-types";
+import type { Set, SetMetaData } from "$lib/types/set-types";
 
 interface Resolver {
     metadata: SetMetaData;
@@ -16,7 +16,7 @@ const getAllSets = async () => {
             return {
                 name,
                 metadata,
-            };
+            } as Set;
         })
     );
 
