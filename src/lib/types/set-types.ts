@@ -23,5 +23,5 @@ export type SetMetaData = {
 
 export type Set = {
     metadata: SetMetaData;
-    content: string;
+    name: string;
 };
