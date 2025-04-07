@@ -1,4 +1,5 @@
 <script lang="ts">
+    import OpenGraphMeta from '$lib/components/OpenGraphMeta.svelte';
     import rivendellImages from '$lib/special-sets/rivendell-images';
 	import type { Photo, Set } from '$lib/types/set-types';
     let { data } = $props();
@@ -14,6 +15,8 @@
         return set.metadata.photos[set.metadata.heroPhotoIndex];
     };
 </script>
+
+<OpenGraphMeta />
 
 <section class="container">
     <a href={`./set/${rivendell.name}`} class="grid-item">
