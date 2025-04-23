@@ -9,7 +9,7 @@ dates:
   - '11-30-2024'
 pieces: 182
 bricksetLink: https://brickset.com/sets/40604-1/Christmas-Decor-Set
-heroPhotoIndex: 0
+heroPhotoIndex: 1
 builtImage: https://live.staticflickr.com/65535/54174723831_bc8d65b1d5_b.jpg
 photos:
   - link: https://live.staticflickr.com/65535/54174996578_a610fbe568_b.jpg

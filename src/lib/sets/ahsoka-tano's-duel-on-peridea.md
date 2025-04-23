@@ -10,7 +10,7 @@ dates:
 pieces: 382
 theme1: pink-lighten-5
 bricksetLink: https://brickset.com/sets/75385-1/Ahsoka-Tano-s-Duel-on-Peridea
-heroPhotoIndex: 1
+heroPhotoIndex: 2
 builtImage: https://live.staticflickr.com/65535/54435100860_d8fd5de561_b.jpg
 photos:
   - link: https://live.staticflickr.com/65535/54434732371_d54ffae2a5_b.jpg
